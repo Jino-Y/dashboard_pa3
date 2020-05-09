@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<title>Welcome to IE481 Lab</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+{% if error %}
+        <div class=error><strong>Error:</strong> {{error}} </div>
+{% endif %}
+
+<h3>
+    ID: jino, password: 1234 .
+    When logged in, '/home' will show you the page.
+    When not, it'll redirect to this page in case of accessing '/home'
+</h3>
+<form action="" method=post>
+    <dl>
+        <dt>ID:
+            <dd>
+                <input type=text name=id size=30>
+        <dt>Password:
+            <dd>
+                <input type=password name=password size=30>
+    </dl>
+    <div class="actions"><input type=submit value="Log in"></div>
+</form>
+
+</body>
+</html>

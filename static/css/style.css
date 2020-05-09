@@ -1,0 +1,16 @@
+.contents {
+    background-color: #dddddd;
+    text-align: center;
+    front-family: "Arial", Sans-serif;
+}
+
+#song {
+    background-color: #8b0000;
+    color: #dddddd;
+}
+
+#pic {
+    background-color: #ffffff;
+    border: thick dashed #8b0000;
+    padding: 10px;
+}
